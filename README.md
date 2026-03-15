@@ -1,4 +1,4 @@
-# TripGenie ✈️
+# TripGenie – AI Travel Assistant Chatbot ✈️
 
 TripGenie is a web application that helps users plan personalized travel itineraries using artificial intelligence. The application generates detailed day-by-day travel plans based on the user's destination, budget, interests, travel style, and preferences.
 
