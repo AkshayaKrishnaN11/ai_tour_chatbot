@@ -1,79 +1,27 @@
-✈️ AI Tour Planner Pro
-AI Tour Planner Pro is an intelligent travel companion built with Python, Streamlit, and Google’s Gemini 2.0 Flash. It transforms your travel preferences—destination, budget, duration, and interests—into a detailed, day-by-day itinerary complete with cultural insights, dining recommendations, and logistical tips.
+# AI Tour Planner Pro ✈️
 
-✨ Features
-Custom Itinerary Generation: Uses AI to create structured travel plans based on your specific pace and style (Balanced, Relaxed, Fast-Paced, etc.).
+AI Tour Planner Pro is a web application that helps users plan personalized travel itineraries using artificial intelligence. The application generates detailed day-by-day travel plans based on the user's destination, budget, interests, travel style, and preferences.
 
-Interactive Chat: Refine your trip, ask for alternatives, or get specific advice through a natural conversational interface.
+The system uses **Streamlit** for the user interface and **Google Gemini AI** to generate intelligent travel recommendations.
 
-Quick Action Presets: Instantly generate packing lists, weather reports, or budget-friendly activity suggestions with one click.
+## Features
+- Generate personalized travel itineraries
+- Day-by-day travel plans with activities and timings
+- Restaurant and accommodation recommendations
+- Transportation suggestions between locations
+- Budget and travel tips
+- Interactive chat for modifying or asking about the itinerary
+- Save and load previously created itineraries
+- Export travel plans as JSON files
+- Quick suggestions for restaurants, packing lists, weather, and more
 
-Trip Dashboard: Keep track of your travel stats, including total trips planned and days covered.
+## Technologies Used
+- Python  
+- Streamlit  
+- Google Gemini 2.0 Flash API  
+- JSON
 
-Save & Export: Save your favorite itineraries to session storage or export the entire chat history as a JSON file for offline use.
+## Description
+Users enter trip details such as destination, duration, budget, interests, and travel style. The application sends this information to the Gemini AI model, which generates a structured travel itinerary. Users can then interact with the AI assistant to refine or expand their travel plan.
 
-Adaptive UI: A clean, sidebar-driven interface with emoji-rich formatting and a responsive layout.
-
-🛠️ Tech Stack
-Framework: Streamlit
-
-AI Model: Google Gemini 2.0 Flash
-
-Language: Python 3.9+
-
-Data Handling: JSON for exports and Python Session State for persistence.
-
-🚀 Getting Started
-1. Prerequisites
-A Google AI Studio API Key. Get one for free at aistudio.google.com.
-
-Python installed on your machine.
-
-2. Installation
-Clone this repository and navigate to the project folder:
-
-Bash
-git clone https://github.com/yourusername/ai-tour-planner-pro.git
-cd ai-tour-planner-pro
-Install the required dependencies:
-
-Bash
-pip install streamlit google-generativeai
-3. Configuration
-The app looks for your API key in two places:
-
-Streamlit Secrets: Create a .streamlit/secrets.toml file:
-
-Ini, TOML
-GEMINI_API_KEY = "your_api_key_here"
-Environment Variable: Or set it in your terminal:
-
-Bash
-export GEMINI_API_KEY="your_api_key_here"
-4. Running the App
-Launch the application using Streamlit:
-
-Bash
-streamlit run app.py
-📖 How to Use
-Input Details: Use the sidebar to enter your destination and travel parameters.
-
-Generate: Click "🚀 Generate Itinerary" to let the AI build your plan.
-
-Refine: Use the chat box at the bottom to ask follow-up questions like "Can you swap Day 3 for more beach time?"
-
-Save: Use the sidebar buttons to save the trip to your local session or export the data.
-
-🗺️ Roadmap
-[ ] Integration with Google Maps API for real-time location pins.
-
-[ ] Multi-language support for international travelers.
-
-[ ] PDF export functionality for printed itineraries.
-
-[ ] Real-time flight and hotel price tracking.
-
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Made with ❤️ for travelers everywhere.
+This project demonstrates how AI can be integrated with modern web applications to provide intelligent and personalized travel planning assistance.
