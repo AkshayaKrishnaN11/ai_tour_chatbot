@@ -1,6 +1,6 @@
-# AI Tour Planner Pro ✈️
+# TripGenie ✈️
 
-AI Tour Planner Pro is a web application that helps users plan personalized travel itineraries using artificial intelligence. The application generates detailed day-by-day travel plans based on the user's destination, budget, interests, travel style, and preferences.
+TripGenie is a web application that helps users plan personalized travel itineraries using artificial intelligence. The application generates detailed day-by-day travel plans based on the user's destination, budget, interests, travel style, and preferences.
 
 The system uses **Streamlit** for the user interface and **Google Gemini AI** to generate intelligent travel recommendations.
 
